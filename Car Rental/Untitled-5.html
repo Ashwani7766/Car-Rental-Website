@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>LOGIN</title>
+<link rel="icon" href="untitled.png" />
+</head>
+<style>
+
+body {
+        background-image: url("background.png");
+        background-repeat:no-repeat; background-size: cover;
+		background-attachment:fixed;
+
+} 
+
+.topnav {
+  overflow: hidden;
+  background-color:#000000;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+div
+</style>
+<body >
+<img src="p.jpg" style="position: absolute;margin-left: 15px; width: 300px;height: 80px">
+<div class="topnav">
+  <a  href="Untitled-2.html">Home</a>
+  <a class="active" href="Untitled-5.html">LOGIN</a>
+  <a href="Untitled-6.html">REGISTER</a>
+  <a href="team.html">About</a>
+</div><br>
+<div   style="margin-top:100; height:120; width:300; margin-left:1080;  border:2px solid black; background-color:#CCCCCC">
+<form title"Login Here"><br><center>
+<b>USER &nbsp;&nbsp;ID  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</b><input type="text"  id="n"><br>
+<b>PASSWORD &nbsp;:-</b><input type="password" id="myInput"><br>
+<input type="checkbox" onClick="myFunction()">Show Password
+<input type="checkbox" />Rememeber me<br />
+<a href="loginafter.html"><input hspace="30"  type="button" value="LOGIN" onClick="login()" ></a>
+<a href="Untitled-6.html"><input  type="button" value="NEW USER?" ></a>
+</form>
+</div>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myInput");
+if(x.type === "password"){
+x.type = "text";}
+else
+{x.type = "password";}}
+ function login()
+ {var s;
+ s=document.getElementById("n").value;
+ alert(" WELCOME "+s+"! YOU ARE NOW LOGGED IN. ");}
+</script>
+</body>
+  <div style="background-color:#333333; height:260; border:medium; margin-top:310;">
+		<font style="margin-left:15;" size="+3" color="red">E<font color="#FFFFFF">asy</font>R<font color="#FFFFFF">ent</font></font>
+		<font color="#FFFFFF" style="margin-top:30; writing-mode:vertical-rl; text-orientation:mixed;">.com</font><br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Untitled-2.html"><font color="#99FF00">Home</a> <sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="team.html"><font color="#99FF00">About</a><sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="t&c.html"><font color="#99FF00">Terms &amp; condition</a><sup>.</font></sup></font><br>
+		<img src="loc.jpg" height="30" width="30" style="margin-left:524"><font color="#FFFFFF">&nbsp;Lovely Professional University</img><br>
+		
+		<img src="call.jpg" height="30" width="30" style="margin-left:524">&nbsp;8570030458</img><br>
+		
+		<img src="mail.jpg" height="30" width="30" style="margin-left:524">&nbsp;ashwanitanwar987@gmail.com</img></font>
+		<hr>
+		&nbsp;&nbsp;&nbsp;<font color="#FFFF00">Copyright (c) 2019 Copyright EasyRent All Rights Reserved.</font>
+		
+		
+		</div>
+</html>
+
+

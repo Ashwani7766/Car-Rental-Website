@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>REGISTER</title>
+<link rel="icon" href="untitled.png" />
+</head>
+<style>
+
+body {
+        background-image: url("registerimg.jpg");
+        background-repeat:no-repeat; background-size: cover;
+
+} 
+ 
+
+.topnav {
+  overflow: hidden;
+  background-color:#000000;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+</style>
+<body>
+<img src="p.jpg" style="position: absolute;margin-left: 15px; width: 300px;height: 80px">
+<div class="topnav">
+  <a  href="Untitled-2.html">Home</a>
+  <a href="Untitled-5.html">LOGIN</a>
+  <a class="active" href="Untitled-6.html">REGISTER</a>
+  <a href="team.html">About</a>
+</div><br>
+<br>
+
+<div style="height:300; width:580; margin-left:100; border:3px solid black; background-color:#999999">
+<div style="background-color:#CC9900; height:40"
+<p ><font size="+2"><center><u>New User? Register here.</u></center></font></p></div><br>
+<form title="Register">
+<b>FIRST NAME</b><input type="text"  /> <b>LAST NAME</b><input type="text" ><br>
+<b>USER ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b><input type="text" placeholder="abc@easyrent.com"><br>
+<b>PASSWORD:-</b><input type="password" id="myInput"><br>
+<input type="checkbox" onClick="myFunction()">Show Password<br><br>
+
+<b>GENDER:</b><input type="radio" name="r1" value="MALE" /><i>MALE<input type="radio" name="r1" value="FEMALE" />FEMALE<input type="radio" name="r1" value="OTHERS" />OTHERS</i><br>
+<b>MOBILE NO.</b><input type="text" /><br><br>
+<b>DOB</b>
+<input type="text" placeholder="dd/mm/yy" style="width:80"><br />
+<b>PERMANENT DL:</b><input type="radio" name="r1" value="YES" /><i>YES <input type="radio" name="r1" value="NO"  onClick="nofxn()"/>NO<br>
+<center>
+<a href="Untitled-5.html"><input  type="button" value="REGISTER" onClick="fun()"></a>
+<a href="Untitled-5.html"><input type="button" value="Already registered?"></a></center>
+ </form>
+</div>
+<script>
+function myFunction()
+{
+var x = document.getElementById("myInput");
+if(x.type === "password"){
+x.type = "text";}
+else
+{x.type = "password";}}
+function fun()
+{alert("Registration Successful. Back to Login Page?");}
+function nofxn()
+{alert("MUST HAVE A PERMANENT DL to book.!!!!");}
+</script>
+
+
+</body>
+ <div style="background-color:#333333; height:260; border:medium; margin-top:220;">
+		<font style="margin-left:15;" size="+3" color="red">E<font color="#FFFFFF">asy</font>R<font color="#FFFFFF">ent</font></font>
+		<font color="#FFFFFF" style="margin-top:30; writing-mode:vertical-rl; text-orientation:mixed;">.com</font><br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Untitled-2.html"><font color="#99FF00">Home</a> <sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="team.html"><font color="#99FF00">About</a><sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="t&c.html"><font color="#99FF00">Terms &amp; condition</a><sup>.</font></sup></font><br>
+		<img src="loc.jpg" height="30" width="30" style="margin-left:524"><font color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;Lovely Professional University</img><br>
+		
+		<img src="call.jpg" height="30" width="30" style="margin-left:524">&nbsp;&nbsp;&nbsp;&nbsp;8570030458</img><br>
+		
+		<img src="mail.jpg" height="30" width="30" style="margin-left:524">&nbsp;&nbsp;&nbsp;&nbsp;easyrent1234@gmail.com</img></font>
+		<hr>
+		&nbsp;&nbsp;&nbsp;<font color="#FFFF00">Copyright (c) 2019 Copyright EasyRent All Rights Reserved.</font>
+		
+		
+		</div>
+</html>

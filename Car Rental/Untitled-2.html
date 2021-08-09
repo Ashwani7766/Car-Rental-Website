@@ -1,0 +1,125 @@
+<html>
+
+<head>
+	<title>EasyRental</title>
+	<link rel="icon" href="untitled.png" />
+	<link rel="stylesheet" type="text/css" href="Untitled-3.css">
+	<style>
+		.pe {
+			margin-top: 200px;
+			position: absolute;
+		}
+	</style>
+</head>
+<style>
+	body .topnav {
+		overflow: hidden;
+		background-color: #000000;
+	}
+
+	.topnav a {
+		float: right;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 30px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+
+	.topnav a.active {
+		background-color: #4CAF50;
+		color: white;
+	}
+</style>
+
+<body>
+	<img src="p.jpg" style="position: absolute;margin-left: 15px; width: 300px;height: 80px">
+	<div class="topnav">
+		<a class="active" href="Untitled-2.html">Home</a>
+		<a href="Untitled-5.html">LOGIN</a>
+		<a href="Untitled-6.html">REGISTER</a>
+		<a href="team.html">About</a>
+	</div><br>
+
+
+
+	<br>
+	<div style="height:320; width:490; margin-left:50; border:3px solid black; background-color:#666666">
+		<div style="height:40; background-color:#FF6600">
+			<center>
+				<p>
+					<font size="+2"><u><b>Find Your Ride</u></b>
+				</p>
+				</font>
+			</center>
+		</div><br>
+		<form title="Register">
+			<b>Pickup Point:</b><select name="s1" size="1" id="date">
+				<option value="hd">LPU</option>
+				<option value="hf">LAW gate, LPU</option>
+				<option value="hg">Jalandhar</option>
+				<option value="hh">Ludhiana</option>
+				<option value="hk">Phagwara</option>
+			</select> <b>Going To</b><input type="text" id="des" placeholder="eg:- Chandigarh"><br>
+			<b>RENT ON:&nbsp;&nbsp;&nbsp;</b><input type="radio" name="r1" /><i>DAY BASIS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="r1" />HRS BASIS</i><br><br>
+
+			<b>PICK UP DATE</b>
+			<input type="text" placeholder="dd/mm/yyyy" style="width:80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<b>PICK UP TIME</b>
+			<input type="text" placeholder="hh:mm" style="width:80">
+
+			<br><br>
+			<b>RETURN DATE</b>
+			<input type="text" placeholder="dd/mm/yyyy" style="width:80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<b>RETURN TIME</b>
+			<input type="text" placeholder="hh:mm" style="width:80">
+			<br /><br><br>
+			<a href="rentalpg.html"><input hspace="150" style="border:ridge" type="button" value="AVAILABLE CARS" onClick="booking()"></button></a>
+		</form>
+	</div>
+	<script>
+		function booking() {
+			var s;
+			s = document.getElementById("des").value;
+			alert(" You searched car for " + s + ". ");
+		}
+	</script>
+
+	<p class="pe">
+		<font color="white" size="+2">Welcome to EasyRent.com<br>Renting starts from just Rs.1000/-</font>
+	</p><br>
+	<br>
+
+
+</body>
+<div style="background-color:#333333; height:260; border:medium; margin-top:250;">
+	<font style="margin-left:15;" size="+3" color="red">E<font color="#FFFFFF">asy</font>R<font color="#FFFFFF">ent</font>
+	</font>
+	<font color="#FFFFFF" style="margin-top:30; writing-mode:vertical-rl; text-orientation:mixed;">.com</font><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Untitled-2.html">
+		<font color="#99FF00">Home
+	</a> <sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="team.html">
+		<font color="#99FF00">About
+	</a><sup>.</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="t&c.html">
+		<font color="#99FF00">Terms &amp; condition
+	</a><sup>.</font></sup></font><br>
+	<img src="loc.jpg" height="30" width="30" style="margin-left:524">
+	<font color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;Lovely Professional University</img><br>
+
+		<img src="call.jpg" height="30" width="30" style="margin-left:524">&nbsp;&nbsp;&nbsp;&nbsp;8570030458</img><br>
+
+		<img src="mail.jpg" height="30" width="30" style="margin-left:524">&nbsp;&nbsp;&nbsp;&nbsp;easyrent1234@gmail.com</img>
+	</font>
+	<hr>
+	&nbsp;&nbsp;&nbsp;<font color="#FFFF00">Copyright (c) 2019 Copyright EasyRent All Rights Reserved.</font>
+
+</div>
+
+</html>
